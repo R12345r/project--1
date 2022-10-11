@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Oswald:wght@200&display=swap');
+
+*{
+margin: 0;padding: 0;
+box-sizing: border-box;
+font-family: 'Alkalami', serif;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 120vh;
+}
+.box{
+width: 59px;
+height: 53px;
+position: relative;
+display: flex;
+align-items: center;
+overflow: hidden;
+padding: 6px;
+cursor: pointer;
+margin: 0.6em;
+transition: all .4s;
+}
+.box:hover{
+width: 190px;
+background: #c2a5b7;
+border-radius: 60px;
+color: rgb(31, 125, 48);
+ box-shadow: 0 0 60px sienna;
+}
+.box:nth-child(2):hover{
+background: #1ea5a5;
+box-shadow: 0 0 60px sienna;
+}
+.box:nth-child(3):hover{
+width: 190px;
+background: #1da1f2;
+box-shadow: 0 0 60px sienna;
+}
+.box:nth-child(4):hover{
+background: #e0d910;
+box-shadow: 0 0 60px sienna;
+;
+}
+p{
+transform: translate(60px);
+}
+.box:hover  .icon{
+    background: coral;
+    box-shadow: 0 0 30px rgba(red, rgb(147, 236, 147), blue, alpha);
+    color:rgba(red, rgb(147, 236, 147), blue, alpha);
+}
+p{
+    transform: translate(50px);
+    }
+    .button{
+       position: absolute;
+     
+    }
+    .instagram{
+        background: #4c1890;
+        }
+        .facebook{
+        background: #4a674a;
+        }
+        .twitter{
+        background: #87b0c9;
+        }
+        .whatsapp{
+        background: #d38d25;
+        }
